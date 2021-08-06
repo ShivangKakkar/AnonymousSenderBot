@@ -11,7 +11,7 @@ class Data:
 
 Bot created by @StarkBots
 
-Source Code : [Click Here](https://github.com/StarkBots/AnonBot)
+Source Code : [Click Here](https://github.com/StarkBots/AnonymousSenderBot)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
@@ -31,6 +31,6 @@ Developer : @StarkProgrammer
         [
             InlineKeyboardButton("🎪 About The Bot 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MysteryBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/MysteryBotsChat")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
     ]

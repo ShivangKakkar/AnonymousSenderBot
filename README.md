@@ -1,4 +1,4 @@
-## Anonymous Sender Bot [@](https://t.me/)
+## Anonymous Sender Bot [@AnonySendBot](https://t.me/AnonySendBot)
 
 <p align="center"><a href="https://www.github.com/StarkBotsIndustries/AnonymousSenderBot"><img src="https://telegra.ph/file/107ff8af751ad7b72e9b9.jpg" width="5000"></a></p>
 
