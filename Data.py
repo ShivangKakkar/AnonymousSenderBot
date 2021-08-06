@@ -11,7 +11,7 @@ class Data:
 
 Bot created by @StarkBots
 
-Source Code : [Click Here](https://github.com/StarkBots/AnonymousSenderBot)
+Source Code : [Click Here](https://github.com/StarkBotsIndustries/AnonymousSenderBot)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
