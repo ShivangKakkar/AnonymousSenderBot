@@ -88,7 +88,7 @@ Telegram bot to remove the forwarded tag from messages.
 
 ## Stats
 
-[![GitHub forks](https://img.shields.io/github/forks/StarkBotsIndustries/AnonymousSenderBot.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/StarkBotsIndustries/AnonymousSenderBot/network/) [![GitHub stars](https://img.shields.io/github/stars/StarkBotsIndustries/AnonymousSenderBot.svg?style=social&label=Star&maxAge=2592000)](https://github.com/StarkBotsIndustries/AnonymousSenderBot/stargazers/) [![GitHub watchers](https://img.shields.io/github/watchers/StarkBotsIndustries/AnonymousSenderBot.js.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/StarkBotsIndustries/AnonymousSenderBot/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/StarkBotsIndustries/AnonymousSenderBot.svg?style=social&label=Fork&maxAge=2592000)](https://github.com/StarkBotsIndustries/AnonymousSenderBot/network/) [![GitHub stars](https://img.shields.io/github/stars/StarkBotsIndustries/AnonymousSenderBot.svg?style=social&label=Star&maxAge=2592000)](https://github.com/StarkBotsIndustries/AnonymousSenderBot/stargazers/) [![GitHub watchers](https://img.shields.io/github/watchers/StarkBotsIndustries/AnonymousSenderBot.svg?style=social&label=Watch&maxAge=2592000)](https://github.com/StarkBotsIndustries/AnonymousSenderBot/watchers/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/StarkBotsIndustries/AnonymousSenderBot/graphs/commit-activity)
 
 ## License
