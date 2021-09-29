@@ -27,7 +27,7 @@ Developer : @StarkProgrammer
     remove_button = [InlineKeyboardButton("� Remove Caption �", callback_data="remove")]
 
     # Add caption button
-    add_button = [InlineKeyboardButton("💬 Add Caption 💬", callback_data="add")]
+    add_button = [InlineKeyboardButton("💬 Re-Add Caption 💬", callback_data="add")]
 
     # Rest Buttons
     buttons = [

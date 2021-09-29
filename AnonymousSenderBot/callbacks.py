@@ -8,7 +8,6 @@ from Data import Data
 async def _calls(anonbot, callback_query):
     chat_id = callback_query.from_user.id
     message_id = callback_query.message.message_id
-    # .lower() to test somethings..
     if callback_query.data.lower() == "home":
         user = await anonbot.get_me()
         mention = user["mention"]
@@ -26,25 +25,16 @@ async def _calls(anonbot, callback_query):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(Data.home_button),
         )
-
-    if callback_query.data.lower() == "deploy":
-        await anonbot.edit_message_text(
-            chat_id=chat_id,
-            message_id=message_id,
-            text=Data.DEPLOY,
-            disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(Data.home_button),
-        )
     if callback_query.data.lower() == "remove":
         caption = ""
         await anonbot.edit_message_caption(
             chat_id=chat_id, message_id=message_id, caption=caption, reply_markup=InlineKeyboardMarkup([Data.add_button])
         )
-        print("Removed Caption")
-        """ More Plans """
     if callback_query.data.lower() == "add":
-        caption = callback_query.message.reply_to_message.caption
-        await anonbot.edit_message_caption(
-            chat_id=chat_id, message_id=message_id, caption=caption, reply_markup=InlineKeyboardMarkup([Data.remove_button])
-        )
-        print("Added Caption")
+        try:
+            caption = callback_query.message.reply_to_message.caption
+            await anonbot.edit_message_caption(
+                chat_id=chat_id, message_id=message_id, caption=caption, reply_markup=InlineKeyboardMarkup([Data.remove_button])
+            )
+        except AttributeError:
+            await callback_query.answer("The original message has been deleted. Can't re-add caption.", show_alert=True)
