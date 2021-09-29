@@ -38,7 +38,7 @@ async def _calls(anonbot, callback_query):
     if callback_query.data.lower() == "remove":
         caption = ""
         await anonbot.edit_message_caption(
-            chat_id=chat_id, message_id=message_id, caption=caption
+            chat_id=chat_id, message_id=message_id, caption=caption, reply_markup=InlineKeyboardMarkup([Data.add_button])
         )
         print("Removed Caption")
         """ More Plans """
