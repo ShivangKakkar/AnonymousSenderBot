@@ -31,10 +31,10 @@ async def _calls(anonbot, callback_query):
             chat_id=chat_id, message_id=message_id, caption=caption, reply_markup=InlineKeyboardMarkup([Data.add_button])
         )
     if callback_query.data.lower() == "add":
-        try:
-            caption = callback_query.message.reply_to_message.caption
+        caption = callback_query.message.reply_to_message.caption
+        if caption:
             await anonbot.edit_message_caption(
                 chat_id=chat_id, message_id=message_id, caption=caption, reply_markup=InlineKeyboardMarkup([Data.remove_button])
             )
-        except AttributeError:
-            await callback_query.answer("The original message has been deleted. Can't re-add caption.", show_alert=True)
+        else:
+            await callback_query.answer("The original message has been deleted or their is no previous caption.", show_alert=True)
